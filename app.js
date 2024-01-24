@@ -28,70 +28,8 @@
 
 logear()*/
 
-
-/*
-// Definir productos disponibles
-const productosDisponibles = [
-  { id: 1, nombre: 'Producto 1', precio: 20.00 },
-  { id: 2, nombre: 'Producto 2', precio: 30.00 },
-  { id: 3, nombre: 'Producto 3', precio: 25.00 },
-  // ... más productos
-];
-
-// Función para mostrar productos y manejar el carrito de compras
-function carritoDeCompras() {
-  let carrito = [];
-
-  do {
-    // Mostrar productos disponibles
-    alert("Productos Disponibles:\n" + productosDisponibles.map(producto => `${producto.id}. ${producto.nombre} - $${producto.precio.toFixed(2)}`).join('\n'));
-
-    // Pedir al usuario que elija un producto
-    let idProducto = parseInt(prompt("Ingrese el número del producto que desea comprar (0 para salir):"));
-
-    // Verificar si el usuario quiere salir
-    if (idProducto === 0) {
-      break;
-    }
-
-    // Buscar el producto por su ID en el array de productos
-    let productoElegido = productosDisponibles.find(producto => producto.id === idProducto);
-
-    // Verificar si el producto existe
-    if (productoElegido) {
-      // Pedir la cantidad de productos
-      let cantidad = parseInt(prompt(`Ingrese la cantidad de "${productoElegido.nombre}" que desea comprar:`));
-
-      // Verificar si la cantidad es válida
-      if (!isNaN(cantidad) && cantidad > 0) {
-        // Agregar el producto al carrito
-        carrito.push({ producto: productoElegido, cantidad });
-        alert(`"${productoElegido.nombre}" se ha agregado al carrito.`);
-      } else {
-        alert("Por favor, ingrese una cantidad válida.");
-      }
-    } else {
-      alert("Producto no encontrado. Por favor, ingrese un número de producto válido.");
-    }
-
-  } while (true);
-
-  // Mostrar resumen de la compra
-  if (carrito.length > 0) {
-    let total = carrito.reduce((acc, item) => acc + item.producto.precio * item.cantidad, 0);
-    alert("Resumen de la compra:\n" + carrito.map(item => `${item.cantidad} x ${item.producto.nombre} - $${(item.producto.precio * item.cantidad).toFixed(2)}`).join('\n') + `\n\nTotal: $${total.toFixed(2)}`);
-  } else {
-    alert("No se han agregado productos al carrito. Gracias por visitarnos.");
-  }
-}
-
-// Llamada a la función para iniciar el proceso de compra
-carritoDeCompras();
-*/
-
-
-
-
+//////////////////////////////////////////////////////////////////////
+// PARA LA SEGUNDA PREENTREGA //
 
 // Definir productos disponibles
 let productos = [
